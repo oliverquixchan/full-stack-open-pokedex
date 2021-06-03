@@ -20,4 +20,4 @@ jobs:
         run: echo "$COMMITS"
       - name: commit messages
         if: {{ contains(github.event.commits.*.message, '#skip') === false }}
-        run: echo "$COMMIT_MESSAGES"
+        run: echo "LMAO"
