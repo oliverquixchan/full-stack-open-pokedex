@@ -9,3 +9,4 @@ jobs:
     steps:
       - name: Healthcheck
         uses: jtalk/url-health-check-action@v1.5
+        with: https://helsinkicourse.herokuapp.com/
