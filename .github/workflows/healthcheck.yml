@@ -1,0 +1,11 @@
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  healthcheck:
+    steps:
+      - name: Healthcheck
+        uses: jtalk/url-health-check-action@v1.5
+        
