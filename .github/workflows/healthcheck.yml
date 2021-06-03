@@ -5,7 +5,7 @@ on:
 
 jobs:
   healthcheck:
+    runs-on: ubuntu-18.04
     steps:
       - name: Healthcheck
         uses: jtalk/url-health-check-action@v1.5
-        
